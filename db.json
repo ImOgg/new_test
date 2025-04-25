@@ -1,0 +1,26 @@
+{
+  "posts": [
+    { "id": 1, "title": "第一篇文章", "content": "這是第一篇文章的內容" },
+    { "id": 2, "title": "第二篇文章", "content": "這是第二篇文章的內容" },
+    { "id": 3, "title": "第三篇文章", "content": "這是第三篇文章的內容" }
+  ],
+  "users": [
+    { "id": 1, "name": "小明", "email": "ming@example.com" },
+    { "id": 2, "name": "小華", "email": "hua@example.com" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "text": "這是一則評論", "userId": 1 },
+    { "id": 2, "postId": 1, "text": "另一則評論", "userId": 2 },
+    { "id": 3, "postId": 2, "text": "很棒的文章!", "userId": 1 }
+  ],
+  "notes": [
+    { "id": 1, "content": "買牛奶", "color": "#FFADAD", "x": 100, "y": 100 },
+    { "id": 2, "content": "回覆郵件", "color": "#FFD6A5", "x": 350, "y": 150 },
+    { "id": 3, "content": "週末去看電影", "color": "#FDFFB6", "x": 200, "y": 300 },
+    { "id": 4, "content": "學習 Vue", "color": "#CAFFBF", "x": 450, "y": 250 },
+    { "id": 5, "content": "健身", "color": "#9BFBCB", "x": 600, "y": 400 },
+    { "id": 6, "content": "閱讀書籍", "color": "#A0C4FF", "x": 700, "y": 100 },
+    { "id": 7, "content": "寫程式", "color": "#B9FBC0", "x": 800, "y": 200 },
+    { "id": 8, "content": "參加會議", "color": "#FFC3A0", "x": 900, "y": 300 }
+  ]
+}
