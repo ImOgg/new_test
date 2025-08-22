@@ -12,11 +12,17 @@
   },
   "dependencies": {
     "@hebilicious/vue-query-nuxt": "^0.3.0",
-    "@tanstack/vue-query": "^5.74.6",
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@tanstack/vue-query": "^5.85.5",
     "@vueuse/core": "^13.1.0",
+    "dayjs": "^1.11.13",
     "nuxt": "^3.16.2",
+    "sass": "^1.90.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "vue-virtual-scroller": "^2.0.0-beta.8",
+    "vuetify": "^3.9.0-beta.1"
   },
   "devDependencies": {
     "json-server": "^1.0.0-beta.3"
