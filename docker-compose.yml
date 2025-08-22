@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  nuxt-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nuxt-app
+    restart: always
+    ports:
+      - "3000:3000"  # 將容器的 3000 端口映射到本地主機
+    volumes:
+      - .:/app        # 將本地代碼掛載到容器中（便於開發）
+      - /app/node_modules # 防止與本地 node_modules 冲突
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    restart: always
+    ports:
+      - "80:80"  # 映射本地的 80 端口
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - nuxt-app
